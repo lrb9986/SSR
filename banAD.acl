@@ -6,9 +6,8 @@
 [outbound_block_list]
 # 禁止访问列表
 
-(^|\.)tamedia\.com\.tw$
-
 # 广告关键词
+(^|\.)\w*tamedia\w*\.\w*$
 (^|\.)\w*admarvel\w*\.\w*$
 (^|\.)\w*admaster\w*\.\w*$
 (^|\.)\w*adsage\w*\.\w*$
