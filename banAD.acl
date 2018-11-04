@@ -1,8 +1,12 @@
+
 [proxy_all]
+# 默认代理
 
 #**********************************************************************
 [outbound_block_list]
 # 禁止访问列表
+
+(^|\.)tamedia\.com\.tw$
 
 # 广告关键词
 (^|\.)\w*admarvel\w*\.\w*$
@@ -348,12 +352,6 @@
 (^|\.)pagead\.google\.com$
 (^|\.)pagead\.l\.google\.com$
 (^|\.)service\.urchin\.com$
-(^|\.)\w*googleads\w*\.\w*$
-(^|\.)googletagmanager\.com$
-(^|\.)googletakes\.com$
-(^|\.)graph\.facebook\.com
-(^|\.)cdn\.unityads\.unity3d\.com$
-
 
 # JD
 (^|\.)(c-nfa|img-x|jrclick|jzt|policy)\.jd\.com$
