@@ -4,6 +4,6 @@ var obj ={
   "data": {
     "free_search": 100000
   },
-  "timestamp": 1591726598
+  "timestamp": Date.now()
 };
 $done({ body: JSON.stringify(obj)});
