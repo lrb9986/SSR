@@ -1,8 +1,9 @@
-var date = Date.now();
-var data = {
-  body: "{\"code\": 200,  \"msg\": \"请求成功\",  \"data\": {    \"free_search\": 1000000  },  \"timestamp\": "+date+"}",
-  headers: {
-    "Content-Type": "application/json"
-  }
+var obj ={
+  "code": 200,
+  "msg": "请求成功",
+  "data": {
+    "free_search": 100000
+  },
+  "timestamp": 1591726598
 };
-$done({response: data});
+$done({ body: JSON.stringify(obj)});
