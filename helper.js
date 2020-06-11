@@ -7,8 +7,9 @@ var obj ={
     "score": 100000,
     "invite_count": 100000,
     "invite_level": "LV3",
-    "is_authentication": -1,
-    "is_invite": 1,
+    "is_authentication": 2,
+    "is_invite": 2,
+    "buy_limit": 1,
     "discount": 100000
   },
   "timestamp": Date.now()
