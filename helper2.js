@@ -8,7 +8,9 @@ obj.data['invite_level'] = "LV1";
 obj.data['is_authentication'] = -1;
 obj.data['is_invite'] = 2;
 obj.data['discount'] = 2;
-obj.authentication = 1;
+obj.data.authentication = 1;
+obj.data.is_vip = 1;
+obj.data.vip = 1;
 obj.timestamp = Date.now();
 
 $done({body:JSON.stringify(obj)});
