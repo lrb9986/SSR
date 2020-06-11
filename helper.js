@@ -6,9 +6,9 @@ var obj ={
     "search_num": 100000,
     "invite_count": 100000,
     "invite_level": "LV3",
-    "is_authentication": 1,
+    "is_authentication": -1,
     "is_invite": 1,
-    "discount": 100
+    "discount": 100000
   },
   "timestamp": Date.now()
 };
