@@ -9,8 +9,8 @@ obj.data['is_authentication'] = 1;
 obj.data['is_invite'] = 1;
 obj.data['discount'] = 1;
 obj.data.authentication = 1;
-obj.data.is_vip = 1;
-obj.data.vip = 1;
+obj.data.is_svip = 1;
+obj.data.svip = 1;
 obj.data.buy_limit = 1;
 obj.timestamp = Date.now();
 
