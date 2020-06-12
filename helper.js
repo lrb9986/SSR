@@ -10,8 +10,8 @@ var obj ={
     "is_authentication": 1,
     "is_invite": 1,
     "buy_limit": 1,
-    "is_vip": 1,
-    "vip": 1,
+    "is_svip": 1,
+    "svip": 1,
     "discount": 100000
   },
   "timestamp": Date.now()
